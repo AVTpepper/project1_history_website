@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
 * {
-    border:none;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+ 
+/* logo and menu */
 
 header {
     background-color: grey;
@@ -33,6 +35,7 @@ header {
     line-height: 60px;
 }
 
+/* hero-image and cover text */
 .hero-outer {
     height: 600px;
     width: 100%;
@@ -61,6 +64,26 @@ header {
     position: absolute;
 
 }
+
+/* timeline */
+
+.timeline {
+    width: 100%;
+    height: auto;
+    background-color: darkkhaki;
+    padding: 50px 0;
+    display: grid;
+    place-items: center;
+}
+
+.timeline .heading {
+    font-size: 30px;
+    font-weight:300;
+    color: rgb(28, 31, 30);
+    position: relative;
+    text-transform: capitalize;
+}
+/* responsive design */
 
 @media screen and (max-width: 950px) {
     header {
