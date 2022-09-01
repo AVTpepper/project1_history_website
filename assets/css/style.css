@@ -5,14 +5,14 @@
     padding: 0;
     box-sizing: border-box;
 }
- 
+
 /* logo and menu */
 
 header {
     background-color: grey;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 
 #logo {
@@ -31,7 +31,8 @@ header {
     margin-right: 30px;
 }
 
-#logo, #menu {
+#logo,
+#menu {
     line-height: 60px;
 }
 
@@ -42,6 +43,7 @@ header {
     overflow: hidden;
     position: relative;
 }
+
 .hero-image {
     background: url("../images/Mount-rushmore-2.jpg") no-repeat center center;
     height: 600px;
@@ -50,16 +52,16 @@ header {
 
 .hero-text {
     font-size: 130%;
-    text-transform:capitalize;
+    text-transform: capitalize;
     letter-spacing: 4px;
     width: 300px;
     height: 100px;
     padding: 0;
-    padding-left:0;
+    padding-left: 0;
     background-color: rgba(127, 187, 48, 0.7);
     bottom: 3%;
     left: 10%;
-    
+
 
     position: absolute;
 
@@ -78,7 +80,7 @@ header {
 
 .timeline .heading {
     font-size: 30px;
-    font-weight:300;
+    font-weight: 300;
     color: rgb(28, 31, 30);
     position: relative;
     text-transform: capitalize;
@@ -107,7 +109,7 @@ header {
     margin-bottom: 45px;
 }
 
-/* TEST timeline wrapper TEST */
+/* TEST timeline wrapper TEST 1 
 
 .wrapper {
     display: flex;
@@ -115,7 +117,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     margin: 50px auto;
-    max-width: 800px;
+    max-width: 70%;
     height: auto;
 }
 
@@ -132,7 +134,7 @@ header {
     text-align: center;
     font-size: 20px;
     background-image: linear-gradient( red, red);
-    background-size: 1%; /* add your height of the line here*/
+    background-size: 1%; 
     background-position: 50% 0;
     background-repeat: repeat-y;
     color:#fff;
@@ -149,9 +151,114 @@ header {
 
 .box-text {
     padding: 30px;
+    text-align:center;
+    padding: 20px;
+    color:#fff;
+    order:3;
+    width:50%;
+    padding-left:10px;
+    background:deepskyblue;
+    border-radius:10px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
 }
 
+.box-right .box-text{
+    order:1;
+    padding-right: 10px;
+}
+
+.box-right .custom{
+    order:3;
+} */
+
+
+/* TIMELINE TEST 2 
+
+@media screen and (min-width: 640px){
+    .box-text, .custom{
+        width: 40%;
+    }
+    .box-right .box-text {
+        order: 1;
+        padding-right: 10px;
+        border-radius: 0 50px 0 50px;
+        box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    }
+    .box-right .custom{
+        order: 3;
+    }
+}*/
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.box-area {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.box-date {
+    background-image: linear-gradient(#000, #000);
+    background-size: 1%;
+    background-position: 50% 0;
+    background-repeat: repeat-y;
+    order: 2;
+    text-align: center;
+    color: rgb(133, 25, 25);
+    font-size: 20px;
+    flex-basis: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.box-date > span {
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    background: dimgray;
+    border-radius: 15px;
+}
+
+.box-text {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    order: 3;
+    width: 80%;
+    padding-left: 10px;
+    background: deepskyblue;
+    border-radius: 0 50px 0 50px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 3%;
+}
+
+.box-right .box-text {
+    order: 1;
+    padding-right: 10px;
+    border-radius: 0 50px 0 50px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.box-right .custom{
+    order: 3;
+}
+.box-text, .custom{
+    width: 40%;
+}
+
+
+
+
 /* responsive design */
+
+
 
 @media screen and (max-width: 950px) {
     header {
@@ -159,15 +266,43 @@ header {
         flex-direction: column;
         text-align: center;
     }
+
     #menu {
         line-height: 25px;
         margin-left: 30px;
     }
+
     #logo {
         margin-left: 0px;
     }
+    .box-text {
+        order:2;
+        width: 80%;
+        margin-right: 3%;
+    }
+    .box-date{
+        order:1;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .box-right{
+        order:2;
+    }
+    .custom{
+        display: none;
+    }
+    .box-area {
+        justify-content: left;
+    }
+
 }
-    /*#logo {
+
+
+
+
+
+
+/*#logo {
         text-align: center;
     }*/
 
