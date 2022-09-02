@@ -233,21 +233,20 @@ header {
 
  /* footer */
 
- footer {
-    height: 150px;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: baseline;
- }
-
- .social-media {
+ .socials {
+    background: rgb(167, 33, 33);
     text-align: center;
-    display: flex;
-    align-items: center;
  }
 
- .social-media > li {
-    display: inline;
+ .icons i {
+    font-size: 300%;
+    padding: 30px;
+ }
+
+ .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
  }
 
