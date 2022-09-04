@@ -198,6 +198,22 @@ header {
     max-width:100%;
 }
 
+/* Face History */
+
+.face-history {
+    background: red;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.face-history div {
+    width: 50%;
+    height: 50%;
+}
+
 
 
 /* responsive design */
@@ -245,6 +261,7 @@ header {
 
     .box-area {
         justify-content: left;
+        order: 5;
     }
     .box-text.box-image {
         margin-right: 3%;
