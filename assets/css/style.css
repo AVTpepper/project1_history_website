@@ -333,7 +333,7 @@ header {
     .box-text {
         order: 2;
         width: 80%;
-        margin-right: 3%;
+        margin-right: 0%;
     }
 
     .box-text.text {
@@ -360,7 +360,7 @@ header {
     }
 
     .box-text.box-image {
-        margin-right: 3%;
+        margin-right: 0px;
     }
 
     .face-history-row-one {
@@ -386,8 +386,11 @@ header {
         width: 100px;
         height: 100px;
     }
-    div.text-box.box-image-right {
-        margin-right: 3%;
+    .box-text.box-image-right {
+        margin-right: 0px;
+    }
+    .box-area.box-right.box-text {
+        margin-right: 0px;
     }
 }
 
