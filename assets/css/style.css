@@ -386,6 +386,9 @@ header {
         width: 100px;
         height: 100px;
     }
+    div.text-box.box-image-right {
+        margin-right: 3%;
+    }
 }
 
 
