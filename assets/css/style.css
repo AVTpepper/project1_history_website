@@ -250,13 +250,46 @@ header {
 }
 
 /* Video style */
-
-.video {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    background-color: lightsteelblue;
+/*
+.video-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color:antiquewhite;
+    height: auto;
 }
+
+.video-container .video {
+    margin: 0 auto;
+    width: 560px;
+}
+
+.video-container .video iframe{
+    width: 100%;
+    height: 315px;
+}
+ */
+
+.video-section {
+    height: 70vh;
+    width: auto;
+}
+.video {
+    height: 70vh;
+    width: 100%;
+    background: black;
+    display: flex;
+}
+
+.player {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+
+
+
 
 /* Gallery Design */
 
