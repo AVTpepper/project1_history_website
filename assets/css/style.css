@@ -178,7 +178,7 @@ header {
     width: 40%;
 }
 
-.box-image  img {
+.box-image img {
     max-width: 100%;
     border-radius: 0 50px 0 0;
 }
@@ -186,7 +186,7 @@ header {
 .box-text.box-image {
     background: #000;
     border-radius: 0 50px 0 0;
-    margin:0%;
+    margin: 0%;
     padding-bottom: 20px;
     padding-top: 20px;
     padding-right: 20px;
@@ -199,8 +199,9 @@ header {
     padding-top: 20px;
     padding-right: 20px;
 }
+
 .box-image-right img {
-    max-width:100%;
+    max-width: 100%;
 }
 
 /* Face History */
@@ -228,6 +229,7 @@ header {
     padding-left: 8%;
     padding-top: 0px;
 }
+
 .face-one {
     display: flex;
     flex: 1;
@@ -238,8 +240,9 @@ header {
     align-items: center;
     margin-right: 1.5%;
     margin-bottom: 1.5%;
-    
+
 }
+
 .face-two {
     display: flex;
     flex: 1;
@@ -283,6 +286,30 @@ header {
     padding-left: 3%;
     padding-right: 3%;
 }
+
+/* Gallery Design */
+
+.gallery>img {
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+    height: 400px;
+    padding: 5px;
+    border: 1px solid navajowhite;
+    margin: 5px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: auto;
+    padding-top: 3%;
+    background: black;
+}
+
 /* responsive design */
 
 
@@ -308,6 +335,7 @@ header {
         width: 80%;
         margin-right: 3%;
     }
+
     .box-text.text {
         margin-bottom: 3%
     }
@@ -330,6 +358,7 @@ header {
         justify-content: left;
         order: 5;
     }
+
     .box-text.box-image {
         margin-right: 3%;
     }
@@ -339,53 +368,61 @@ header {
         align-items: center;
     }
 
-    .face-history-row-two{
+    .face-history-row-two {
         flex-direction: column;
         align-items: center;
     }
 
-    .face-one, .face-two, .face-three, .face-four {
+    .face-one,
+    .face-two,
+    .face-three,
+    .face-four {
         width: 100%;
         margin: 3%;
         padding: 3%;
+    }
+
+    img.presi-heads {
+        width: 100px;
+        height: 100px;
     }
 }
 
 
 
 
- /* Navigation bar for index page */
+/* Navigation bar for index page */
 
- /* footer */
+/* footer */
 
- footer {
+footer {
     background: rgb(50, 145, 235);
- }
- .socials {
+}
+
+.socials {
     text-align: center;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
- }
+}
 
- .icons i {
+.icons i {
     font-size: 300%;
     padding: 30px;
     padding-bottom: 10px;
- }
+}
 
- .icons {
+.icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
- }
+}
 
 
- #socials-name{
+#socials-name {
     display: flex;
     flex-direction: column;
     justify-content: center;
- }
-
+}
