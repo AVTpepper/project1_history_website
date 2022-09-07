@@ -62,10 +62,7 @@ header {
     background-color: rgba(127, 187, 48, 0.7);
     bottom: 3%;
     left: 10%;
-
-
     position: absolute;
-
 }
 
 /* timeline */
@@ -250,6 +247,10 @@ header {
 }
 
 /* Video style */
+/* background: red
+    display: flex
+    justify-content: center; */
+
 
 .video-bg {
     width: 100%;
@@ -293,12 +294,10 @@ iframe {
 .gallery {
     display: flex;
     flex-direction: row;
-    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    max-height: auto;
-    padding-top: 3%;
     background: black;
+    padding: 60px;
 }
 
 /* responsive design */
@@ -409,8 +408,35 @@ footer {
 /* sign-up page */
 
 .form-section {
-    background: url("../images/where-to-next.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
+    background-color: bisque;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.signup-form {
+    
+    color: #fff;
+    background-color: rgba(255, 160, 122, 0.6);
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem;
+
+}
+
+.text-input {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+form div {
+    margin: 30px;
 }
