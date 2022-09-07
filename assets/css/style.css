@@ -274,45 +274,7 @@ iframe {
     top: 0;
     left: 0;
 }
-/*
-.video {
-    position: relative;
-    padding-bottom: 56.25%;
-    border: 3rem solid;
-    overflow: hidden;
-    height: 70vh;
-}
 
-iframe {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0 auto;
-}
-*/
-
-/*
-.video-section {
-    height: 70vh;
-    width: auto;
-}
-.video {
-    height: 70vh;
-    width: 100%;
-    background: black;
-    display: flex;
-}
-
-.player {
-    width: 100%;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 2%;
-}
-
-*/
 
 
 
@@ -442,4 +404,13 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/* sign-up page */
+
+.form-section {
+    background: url("../images/where-to-next.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
 }
