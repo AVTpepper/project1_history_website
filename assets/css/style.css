@@ -349,7 +349,7 @@ footer {
 
 /* sign-up page */
 
-#signup-page {
+#signup-page, #thank-you-page {
     height: auto;
     background: burlywood;
     display: flex;
@@ -357,7 +357,7 @@ footer {
     align-items: center;
     /*overflow: scroll; */
 }
-.signup-form {
+.signup-form, .thank-you {
     background-color: lightgrey;
     flex: 1;
     max-width: 600px;
@@ -367,13 +367,13 @@ footer {
     margin-bottom: 50px;
 }
 
-.signup-heading {
+.signup-heading, .thank-heading{
     padding: 15px 0;
     border-bottom: 1px solid #d41212;
     
 }
 
-.signup-heading h2 {
+.signup-heading h2, .thank-heading h2 {
     font-size: 28px;
     text-align: center;
     color: rgb(37, 30, 105);
@@ -436,6 +436,7 @@ label.tour {
     display: flex;
     justify-content: center;
     font-size: 24px;
+    padding-top: 10px;
 }
 
 .form-footer {
@@ -457,6 +458,20 @@ label.tour {
     margin: 10px;
     width: 100%;
 }
+
+.thank-you-text {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.thank-you {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 @media screen and (max-width: 950px) {
     header {
