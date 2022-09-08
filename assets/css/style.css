@@ -251,6 +251,14 @@ header {
     display: flex
     justify-content: center; */
 
+    /* or just background red and padding 1% */
+    
+
+.full-bg {
+    background: red;
+    display: flex;
+    justify-content: center;
+}
 
 .video-bg {
     width: 100%;
