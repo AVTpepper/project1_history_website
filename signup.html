@@ -35,38 +35,58 @@
             </nav>
         </div>
     </header>
-    <section>
-        <div class="form-section">
+    <section id="signup-page">
+
         <form class="signup-form" method="get" action="thankyou.html">
+            <div class="signup-heading">
+                <h2>Let's get you signed up for one of our tours!</h2>
+            </div>
+
+            <div class="form-body">
+                <div class="row">
+                    <div class="user-input">
+                        <label for="fname">First name</label>
+                        <input type="text" id="fname" name="first_name" required>
+                    </div>
+                    <div class="user-input">
+                        <label for="lname">Last name</label>
+                        <input type="text" id="lname" name="last_name" required>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="user-input">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email_address" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="user-input">
+                        <label for="tour" class="tour">Choose your tour!</label>
+                        <div class="radio-group">
+
+                            <label for="mount-rushmore"><input type="radio" name="type-of-tour" id="mount-rushmore"
+                                    value="mount-rushmore" required>Mount Rushmore</label>
+
+                            <label for="other-historical-sites">
+                                <input type="radio" name="type-of-tour" id="other-historical-sites"
+                                    value="other-historical-sites">Other Historical Sites</label>
+
+                            <label for="both">
+                                <input type="radio" name="type-of-tour" id="both" value="both">Both</label>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="form-footer">
+                    <button class="btn">Sign up!</button>
+                </div>
             
-            <h2 class="signup-heading">Let's get you signed up for our newsletters!</h2>
-            
-            <div><label for="fname">First Name</label>
-            <input type="text" id="fname" name="first_name" class="text-input" required>
-
-             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="last_name" class="text-input" required>
-
-             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" class="text-input" required></div>
-            <h2 class="signup-heading">Let's get you signed up for our newsletters!</h2>
-            <div> <label for="fresh">History in the Making</label>
-            <input type="radio" id="fresh" name="newsletter_preference" value="history_in_the_making" required>
-
-            <label for="historical">Other Historical Sites</label>
-            <input type="radio" id="historical" name="newsletter_preference" value="other_historical_sites">
-
-            <label for="both">Both</label>
-            <input type="radio" id="both" name="newsletter_preference" value="both"></div>
-
-        
-
-            <input type="submit" id="button" value="Sign Me Up!">
         </form>
-    </div>
 
     </section>
-    
+
 
     <footer>
         <div class="socials">

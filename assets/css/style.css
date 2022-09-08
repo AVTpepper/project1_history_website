@@ -247,12 +247,6 @@ header {
 }
 
 /* Video style */
-/* background: red
-    display: flex
-    justify-content: center; */
-
-    /* or just background red and padding 1% */
-    
 
 .full-bg {
     background: red;
@@ -311,6 +305,158 @@ iframe {
 /* responsive design */
 
 
+
+
+
+
+
+
+/* Navigation bar for index page */
+
+/* footer */
+
+footer {
+    background: rgb(50, 145, 235);
+}
+
+.socials {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons i {
+    font-size: 300%;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+#socials-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* sign-up page */
+
+#signup-page {
+    height: auto;
+    background: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*overflow: scroll; */
+}
+.signup-form {
+    background-color: lightgrey;
+    flex: 1;
+    max-width: 600px;
+    border-radius: 10px;
+    border: 1px solid rgb(77, 26, 26);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.signup-heading {
+    padding: 15px 0;
+    border-bottom: 1px solid #d41212;
+    
+}
+
+.signup-heading h2 {
+    font-size: 28px;
+    text-align: center;
+    color: rgb(37, 30, 105);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-input {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;
+}
+
+label {
+    color: #475e58;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.user-input input {
+    font-size: 18px;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #666;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: white;
+    outline: none;
+}
+
+.form-body {
+    background: white;
+    padding: 5px 10px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.radio-group input {
+    height: auto;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.radio-group label {
+    color: #666;
+    cursor: pointer;
+}
+
+label.tour {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+    border-top: 1px solid #d41212;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #1bba93;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    color: #bcf5e7;
+    cursor: pointer;
+    margin: 10px;
+    width: 100%;
+}
 
 @media screen and (max-width: 950px) {
     header {
@@ -372,79 +518,12 @@ iframe {
     .face-history {
         flex-direction: column;
     }
-}
+    .row {
+        flex-direction: column;
+    }
+    .radio-group {
+        flex-direction: column;
+        align-items: center;
+    }
 
-
-
-
-/* Navigation bar for index page */
-
-/* footer */
-
-footer {
-    background: rgb(50, 145, 235);
-}
-
-.socials {
-    text-align: center;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.icons i {
-    font-size: 300%;
-    padding: 30px;
-    padding-bottom: 10px;
-}
-
-.icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-
-#socials-name {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-/* sign-up page */
-
-.form-section {
-    background-color: bisque;
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
-}
-
-.signup-form {
-    
-    color: #fff;
-    background-color: rgba(255, 160, 122, 0.6);
-    padding: 30px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 3rem;
-
-}
-
-.text-input {
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-form div {
-    margin: 30px;
 }
