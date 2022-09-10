@@ -18,6 +18,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    color: rgb(207,214,229);
 }
 
 #logo {
@@ -51,7 +52,7 @@ nav a {
     padding: 10px;
 }
 
-nav a:hover {
+nav a:hover, footer .icons i:hover {
     background-color: rgb(207, 214, 229);
     color: rgb(47, 40, 30);
     padding: 10px;
@@ -192,6 +193,7 @@ header div {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    padding-bottom: 3%;
 }
 
 .faces {
@@ -263,21 +265,17 @@ iframe {
     padding: 60px;
 }
 
-/* responsive design */
-
-
-
-
-
-
-
-
-/* Navigation bar for index page */
 
 /* footer */
 
 footer {
-    background: rgb(50, 145, 235);
+    background-color: rgb(47, 40, 30);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(207,214,229);
+    padding: 30px;
 }
 
 .socials {
@@ -291,6 +289,7 @@ footer {
     font-size: 300%;
     padding: 30px;
     padding-bottom: 10px;
+    color: rgb(207,214,229);
 }
 
 .icons {
@@ -302,7 +301,7 @@ footer {
 }
 
 
-#socials-name {
+.socials-name {
     display: flex;
     flex-direction: column;
     justify-content: center;
