@@ -7,7 +7,9 @@
     font-family: 'Open Sans', sans-serif;
 
 }
-
+section {
+    background-color: rgb(175,157,140);
+}
 /* logo and menu */
 
 header {
@@ -91,18 +93,18 @@ header div {
 
 /* timeline v2 */
 
-.timeline-header {
+.timeline-header, .president-heading {
     color: rgb(207, 214, 229);
     padding: 30px;
     text-align: center;
     background: rgb(47, 40, 30);
-    width: 100%;
+    text-transform: capitalize;
 }
 
 .timeline {
     display: flex;
     flex-direction: column;
-    padding: 3%;
+    padding: 3% 3% 10% 3%;
     text-align: center;
     background-color: rgb(175,157,140);
 }
@@ -146,7 +148,6 @@ header div {
     text-align: center;
 }
 
-
 .box-right {
     order: 3;
     padding: 3%;
@@ -156,12 +157,12 @@ header div {
     border: 2px solid;
 }
 
-.timeline img {
+.timeline img, .face-history img {
     max-width: 100%;
     border: 1px solid;
 }
 
-.timeline h3 {
+.timeline h3, .face-history h3 {
     font-size: 1.3rem;
     text-decoration: underline;
     margin-bottom: 10px;
@@ -169,144 +170,37 @@ header div {
     color: black;
 }
 
-.timeline p {
+.timeline p, .face-history p {
     color: black;
 }
 
+/* the four presidents */
 
-
-/* timeline container 
-
-.container {
-    width: 60%;
-    height: auto;
+#the-four-presidents {
+    background-color: rgb(175,157,140);
+    padding-top: 5%;
 }
-
-.container ul {
-    list-style-type: none;
+.president-heading {
+    margin: 0 5%;
+    border-radius: 50px;
+    border: 10px solid rgb(84,92,82);
 }
-
-.container ul li {
-    width: 50%;
-    height: auto;
-    padding: 15px 30px;
-    background-color: darksalmon;
-    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
-    margin-bottom: 45px;
-}
-
-/* TEST timeline with pictures 
-
-.wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 90vw;
-    margin: 50px auto;
-}
-
-.box-area {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-}
-
-.box-date {
-    background-image: linear-gradient(#000, #000);
-    background-size: 1%;
-    background-position: 50% 0;
-    background-repeat: repeat-y;
-    order: 2;
-    text-align: center;
-    color: rgb(133, 25, 25);
-    font-size: 20px;
-    flex-basis: 100px;
-    margin-right: 3%;
-    margin-left: 3%;
-}
-
-.box-date>span {
-    font-size: 1em;
-    padding: 10px;
-    margin: auto;
-    background: dimgray;
-    border-radius: 15px;
-}
-
-.box-text {
-    text-align: center;
-    padding: 20px;
-    color: #fff;
-    order: 3;
-    width: 80%;
-    padding-left: 10px;
-    background: deepskyblue;
-    border-radius: 0 0 50px 50px;
-    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
-    margin-bottom: 3%;
-}
-
-.box-right .box-text {
-    order: 1;
-    padding-right: 10px;
-    border-radius: 0 50px 0 50px;
-    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
-}
-
-.box-right .custom {
-    order: 3;
-}
-
-.box-text,
-.custom {
-    width: 40%;
-}
-
-.box-image img {
-    max-width: 100%;
-    border-radius: 0 50px 0 0;
-}
-
-.box-text.box-image {
-    background: #000;
-    border-radius: 0 50px 0 0;
-    margin: 0%;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-}
-
-.box-text.box-image-right {
-    background: #000;
-    margin: 0%;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-}
-
-.box-image-right img {
-    max-width: 100%;
-}
-*/
-
-/* Face History */
-
 .face-history {
     display: flex;
-    background: lightseagreen;
+    background: rgb(175,157,140);
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
 
 .faces {
-    flex: 1;
-    background: lightslategray;
-    padding: 30px;
-    font-size: 12px;
-    margin: 30px;
+    background: rgb(207,214,229);
+    padding: 3%;
     margin: 10px;
-    border: 5px solid;
+    border: 2px solid;
+    width: 40%;
+    border-radius: 50px;
 }
 
 .face-history img {
@@ -570,15 +464,14 @@ label.tour {
         order: -1;
     }
 
+    .box-left {
+        border-radius: 0px 50px 50px 50px;
+    }
+
     .box-left,
     .box-right {
         flex-grow: 9;
         margin-bottom: 3%;
-    }
-
-    .timeline-row {
-        width: 80%;
-        
     }
 
     .timeline {
@@ -587,6 +480,7 @@ label.tour {
 
     .face-history {
         flex-direction: column;
+        align-content: center;
     }
 
     .radio-group {
@@ -595,13 +489,6 @@ label.tour {
     }
 
     .faces {
-        flex: 1;
-        background: lightslategray;
-        padding: 30px;
-        font-size: 12px;
-        margin: 30px;
-        margin-right: 10%;
-        margin-left: 10%;
-        border: 5px solid;
+        width: 80%;
     }
 }
