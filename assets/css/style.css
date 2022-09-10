@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 /* logo and menu */
@@ -21,6 +23,11 @@ header {
     color: rgb(207,214,229);
 }
 
+a.active {
+    text-decoration: underline 5px;
+    text-underline-offset: 10px;
+}
+
 #menu {
     list-style-type: none;
 }
@@ -33,7 +40,7 @@ header {
 
 #logo,
 #menu {
-    line-height: 60px;
+    line-height: 45px;
 }
 
 nav a {
@@ -49,7 +56,7 @@ nav a:hover {
 }
 
 header div {
-    font-size: 1.2em;
+    font-size: 1.6rem;
     margin: 10px;
 }
 
@@ -473,6 +480,7 @@ label.tour {
         display: flex;
         flex-direction: column;
         text-align: center;
+        padding-bottom: 10px;
     }
 
     #menu {
