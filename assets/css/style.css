@@ -89,33 +89,84 @@ header div {
     position: absolute;
 }
 
-/* timeline */
+/* timeline v2 */
+
+.timeline-header {
+    color: rgb(207,214,229);
+    padding:30px;
+    text-align: center;
+    background: rgb(47,40,30);
+    width: 100%;
+}
 
 .timeline {
-    width: 100%;
-    height: auto;
-    background-color: darkkhaki;
-    padding: 50px 0;
-    display: flex;
-    place-items: center;
+    display:flex;
     flex-direction: column;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(207,214,229);
 }
 
-.timeline .heading {
-    font-size: 30px;
-    font-weight: 300;
-    color: rgb(28, 31, 30);
-    position: relative;
+.timeline-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 5px solid;
+}
+
+.box-left {
+    order:1;
+    padding: 3%;
+    background-color: green;
+    width: 45%;
+}
+
+.box-middle {
+    order:2;
+    
+    background-image: linear-gradient(#000, #000);
+    background-size: 1%;
+    background-position: 50% 0;
+    background-repeat: repeat-y;
+    flex-grow:1;
+    text-align: center;
+}
+
+.box-middle>span {
+    padding: 10px;
+    background: dimgray;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.box-right {
+    order:3;
+    padding: 3%;
+    background-color: yellow;
+    width: 45%;
+    
+}
+
+.timeline img {
+    max-width: 100%;
+}
+
+.timeline h3 {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    margin-bottom: 10px;
     text-transform: capitalize;
-    margin-bottom: 60px;
 }
 
-/* timeline container */
+
+
+/* timeline container 
 
 .container {
     width: 60%;
     height: auto;
-    position: relative;
 }
 
 .container ul {
@@ -132,7 +183,7 @@ header div {
     margin-bottom: 45px;
 }
 
-/* TEST timeline with pictures */
+/* TEST timeline with pictures 
 
 .wrapper {
     display: flex;
@@ -224,6 +275,7 @@ header div {
 .box-image-right img {
     max-width: 100%;
 }
+*/
 
 /* Face History */
 
@@ -492,53 +544,26 @@ label.tour {
         margin-left: 0px;
     }
 
-    .box-text {
-        order: 2;
-        width: 80%;
-        margin-right: 0%;
-    }
-
-    .box-text.text {
-        margin-bottom: 3%
-    }
-
-    .box-date {
-        order: 1;
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-    .box-right {
-        order: 2;
-    }
-
-    .custom {
-        display: none;
-    }
-
-    .box-area {
-        justify-content: left;
-        order: 5;
-    }
-
-    .box-text.box-image {
-        margin-right: 0px;
-    }
-
-    .box-text.box-image-right {
-        margin-right: 0px;
-    }
-
-    .box-area.box-right.box-text {
-        margin-right: 0px;
-    }
+.empty {
+    display: none;
+}
+.box-middle {
+    order: -1;
+}
+.box-left, .box-right {
+    flex-grow: 9;
+}
+.timeline-row {
+    width: 80%;
+}
+.timeline {
+    align-items: center;
+}
 
     .face-history {
         flex-direction: column;
     }
-    .row {
-        flex-direction: column;
-    }
+
     .radio-group {
         flex-direction: column;
         align-items: center;
