@@ -52,11 +52,13 @@ nav a {
     padding: 10px;
 }
 
-nav a:hover, footer .icons i:hover {
+nav a:hover {
     background-color: rgb(207, 214, 229);
     color: rgb(47, 40, 30);
     padding: 10px;
 }
+
+
 
 header div {
     font-size: 1.6rem;
@@ -212,7 +214,7 @@ header div {
 /* Video style */
 
 .full-bg {
-    background: red;
+    background: rgb(207,214,229);
     display: flex;
     justify-content: center;
 }
@@ -221,7 +223,8 @@ header div {
     width: 100%;
     max-width: 800px;
     margin: 3em auto;
-    border: 3px solid green;
+    border: 3px solid rgb(84, 92, 82);
+    border-radius: 13px;
 }
 
 .video {
@@ -229,8 +232,9 @@ header div {
     max-width: 100%;
     height: 0;
     padding-bottom: 56.25%;
-    border: 3px solid orange;
+    border: 10px solid orange;
     position: relative;
+    border-radius: 10px;
 }
 
 iframe {
@@ -270,42 +274,48 @@ iframe {
 
 footer {
     background-color: rgb(47, 40, 30);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     color: rgb(207,214,229);
     padding: 30px;
 }
 
-.socials {
-    text-align: center;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.icons i {
-    font-size: 300%;
-    padding: 30px;
-    padding-bottom: 10px;
-    color: rgb(207,214,229);
-}
-
-.icons {
+footer h2, .icons {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    width: 100%;
-    flex-wrap: wrap;
 }
-
 
 .socials-name {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    color: rgb(207,214,229);
 }
+
+.socials-name a {
+    text-decoration: none;
+    color: rgb(207,214,229);
+    font-size: x-large;
+}
+
+.socials-name:hover {
+    background-color: rgb(207,214,229);
+}
+.socials-name:hover a {
+    color: rgb(47, 40, 30);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* sign-up page */
 
@@ -446,10 +456,7 @@ label.tour {
         padding-bottom: 10px;
     }
 
-    #menu {
-        line-height: 25px;
-        margin-left: 30px;
-    }
+    
 
     #logo {
         margin-left: 0px;
@@ -489,5 +496,27 @@ label.tour {
 
     .faces {
         width: 80%;
+    }
+
+    footer .icons {
+        flex-direction: column;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center ;
+    }
+    #menu li {
+        margin-right: 0px;
+    }
+    #header {
+        margin: auto;
+    }
+
+    .timeline-row p, face-history {
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
