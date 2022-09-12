@@ -88,7 +88,7 @@ header div {
     height: 100px;
     padding: 0;
     padding-left: 0;
-    background-color: rgba(127, 187, 48, 0.7);
+    background-color: rgba(144, 103, 77, 0.7);
     bottom: 3%;
     left: 10%;
     position: absolute;
@@ -96,7 +96,7 @@ header div {
 
 /* timeline v2 */
 
-.timeline-header, .president-heading {
+.timeline-header, .president-heading, .gallery-heading {
     color: rgb(207, 214, 229);
     padding: 30px;
     text-align: center;
@@ -183,7 +183,7 @@ header div {
     background-color: rgb(175,157,140);
     padding-top: 5%;
 }
-.president-heading {
+.president-heading, .gallery-heading {
     margin: 0 5%;
     border-radius: 50px;
     border: 10px solid rgb(84,92,82);
@@ -214,9 +214,10 @@ header div {
 /* Video style */
 
 .full-bg {
-    background: rgb(207,214,229);
+    background-color: rgb(175,157,140);
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .video-bg {
@@ -250,14 +251,17 @@ iframe {
 
 /* Gallery Design */
 
+.gallery.heading {
+    padding-top: 50px;
+
+}
 .gallery>img {
     max-width: 400px;
     height: auto;
     object-fit: contain;
-    height: 400px;
-    padding: 5px;
-    border: 1px solid navajowhite;
+    height: auto;
     margin: 5px;
+    border: 3px solid rgb(84, 92, 82);
 }
 
 .gallery {
@@ -265,8 +269,9 @@ iframe {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background: black;
+    /* background: black; */
     padding: 60px;
+    background-color: rgb(175,157,140);
 }
 
 
@@ -275,12 +280,13 @@ iframe {
 footer {
     background-color: rgb(47, 40, 30);
     color: rgb(207,214,229);
-    padding: 30px;
+    padding-top: 30px;
 }
 
 footer h2, .icons {
     display: flex;
     justify-content: center;
+    text-transform: capitalize;
 }
 
 .socials-name {
@@ -322,7 +328,7 @@ footer h2, .icons {
 #signup-page,
 #thank-you-page {
     height: auto;
-    background: burlywood;
+    background-color: rgb(175,157,140);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -331,11 +337,11 @@ footer h2, .icons {
 
 .signup-form,
 .thank-you {
-    background-color: lightgrey;
+    background-color: rgb(47, 40, 30);
     flex: 1;
     max-width: 600px;
     border-radius: 10px;
-    border: 1px solid rgb(77, 26, 26);
+    border: 5px solid rgb(84, 92, 82);
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -343,7 +349,7 @@ footer h2, .icons {
 .signup-heading,
 .thank-heading {
     padding: 15px 0;
-    border-bottom: 1px solid #d41212;
+    border-bottom: 3px solid rgb(84, 92, 82);
 
 }
 
@@ -351,7 +357,7 @@ footer h2, .icons {
 .thank-heading h2 {
     font-size: 28px;
     text-align: center;
-    color: rgb(37, 30, 105);
+    color: rgb(207,214,229);
 }
 
 .row {
@@ -419,7 +425,7 @@ label.tour {
     justify-content: center;
     background-color: lightgrey;
     border-top: 1px solid #d41212;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .btn {
