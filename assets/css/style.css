@@ -346,12 +346,12 @@ footer h2, .icons {
 
 #signup-page,
 #thank-you-page {
-    height: 68.3vh;
     background-color: rgb(175,157,140);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    height: 68.3vh;
 }
 
 .signup-form,
