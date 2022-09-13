@@ -7,6 +7,23 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#thank-you-page, #sign-up-page {
+    height: 100%;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
 section {
     background-color: rgb(175,157,140);
 }
@@ -333,7 +350,7 @@ footer h2, .icons {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    height: 68.3vh;
+    height: 100%;
 }
 
 .signup-form,
@@ -343,8 +360,6 @@ footer h2, .icons {
     max-width: 600px;
     border-radius: 10px;
     border: 10px solid rgb(84, 92, 82);
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .signup-heading,
@@ -375,11 +390,11 @@ footer h2, .icons {
 
 label {
     color: black;
-    font-size: 16px;
+    font-size: 1.3rem;
 }
 
 .user-input input {
-    font-size: 18px;
+    font-size: 1.3rem;
     height: 34px;
     padding-left: 10px;
     padding-right: 10px;
@@ -430,7 +445,7 @@ label.tour {
 .btn {
     padding: 10px 20px;
     background-color: rgb(84, 92, 82);
-    font-size: 17px;
+    font-size: 1.3rem;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -465,7 +480,6 @@ button.btn:hover {
 }
 
 #thank-you-page {
-    height: 68.3vh;
     background-color: rgb(175,157,140);
     display: flex;
     justify-content: center;
@@ -544,6 +558,10 @@ button.btn:hover {
         align-items: center;
     }
 
+    .row {
+        flex-direction: column;
+    }
+
     .faces {
         width: 80%;
     }
@@ -569,7 +587,7 @@ button.btn:hover {
         margin: auto;
     }
 
-    .timeline-row p, face-history {
+    .timeline-row p, .face-history p {
         padding-left: 5px;
         padding-right: 5px;
     }
@@ -580,4 +598,6 @@ button.btn:hover {
     .bottom-nav li {
         padding: 10px;
     }
+
+
 }
