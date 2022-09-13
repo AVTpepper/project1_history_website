@@ -103,6 +103,7 @@ header div {
     text-align: center;
     background: rgb(47, 40, 30);
     text-transform: capitalize;
+    font-size: 1.5rem;
 }
 
 .timeline {
@@ -169,7 +170,7 @@ header div {
 }
 
 .timeline h3, .face-history h3 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-decoration: underline;
     margin-bottom: 10px;
     text-transform: capitalize;
@@ -178,6 +179,7 @@ header div {
 
 .timeline p, .face-history p {
     color: black;
+    font-size: 1.3rem;
 }
 
 /* the four presidents */
@@ -259,20 +261,17 @@ iframe {
 }
 
 .gallery>img {
-    max-width: 400px;
-    height: auto;
-    object-fit: contain;
-    height: auto;
     margin: 5px;
     border: 3px solid rgb(84, 92, 82);
+    width: 33%;
 }
 .gallery {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
     padding: 60px;
     background-color: rgb(175,157,140);
+    height: 100vw;
 }
 
 /* bottom nav */
