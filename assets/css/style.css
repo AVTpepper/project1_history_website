@@ -16,7 +16,7 @@ body {
     flex-direction: column;
 }
 
-#thank-you-page, #sign-up-page {
+.thank-you-page, .sign-up-page {
     height: 100%;
 }
 
@@ -39,7 +39,7 @@ header {
     color: rgb(207,214,229);
 }
 
-#logo {
+.logo {
     padding: 10px;
     color: rgb(207, 214, 229);
 }
@@ -49,18 +49,18 @@ a.active {
     text-underline-offset: 10px;
 }
 
-#menu {
+.menu {
     list-style-type: none;
 }
 
-#menu li {
+.menu li {
     display: inline-block;
     padding: auto;
     margin-right: 15px;
 }
 
-#logo,
-#menu {
+.logo,
+.menu {
     line-height: 45px;
 }
 
@@ -76,7 +76,7 @@ nav a:hover {
     padding: 10px;
 }
 
-#menu > .top-menu {
+.menu > .top-menu {
     padding: 10px 20px;
 }
 
@@ -201,7 +201,7 @@ header div {
 
 /* the four presidents */
 
-#the-four-presidents {
+.the-four-presidents {
     background-color: rgb(175,157,140);
     padding-top: 5%;
 }
@@ -343,8 +343,8 @@ footer h2, .icons {
 
 /* sign-up page */
 
-#signup-page,
-#thank-you-page {
+.signup-page,
+.thank-you-page {
     background-color: rgb(175,157,140);
     display: flex;
     justify-content: center;
@@ -365,8 +365,6 @@ footer h2, .icons {
 .signup-heading,
 .thank-heading {
     padding: 15px 0;
-    
-
 }
 
 .signup-heading h2,
@@ -479,7 +477,7 @@ button.btn:hover {
     flex-direction: column;
 }
 
-#thank-you-page {
+.thank-you-page {
     background-color: rgb(175,157,140);
     display: flex;
     justify-content: center;
@@ -522,7 +520,7 @@ button.btn:hover {
         top: 64%;
     }
 
-    #logo {
+    .logo {
         margin-left: 0px;
     }
 
@@ -574,17 +572,15 @@ button.btn:hover {
         flex-direction: column;
     }
 
-    #menu {
+    .menu {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content:center ;
     }
-    #menu li {
+
+    .menu li {
         margin-right: 0px;
-    }
-    #header {
-        margin: auto;
     }
 
     .timeline-row p, .face-history p {
