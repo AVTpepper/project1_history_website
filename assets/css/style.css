@@ -5,11 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-
 }
+
 section {
     background-color: rgb(175,157,140);
 }
+
 /* logo and menu */
 
 header {
@@ -79,7 +80,6 @@ header div {
 .hero-image {
     background: url("../images/Mount-rushmore-2.jpg") no-repeat center center;
     height: 100%;
-    
 }
 
 .hero-text {
@@ -186,11 +186,13 @@ header div {
     background-color: rgb(175,157,140);
     padding-top: 5%;
 }
+
 .president-heading, .gallery-heading {
     margin: 0 5%;
     border-radius: 50px;
     border: 10px solid rgb(84,92,82);
 }
+
 .face-history {
     display: flex;
     background: rgb(175,157,140);
@@ -249,15 +251,12 @@ iframe {
     left: 0;
 }
 
-
-
-
 /* Gallery Design */
 
 .gallery.heading {
     padding-top: 50px;
-
 }
+
 .gallery>img {
     max-width: 400px;
     height: auto;
@@ -266,13 +265,11 @@ iframe {
     margin: 5px;
     border: 3px solid rgb(84, 92, 82);
 }
-
 .gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    /* background: black; */
     padding: 60px;
     background-color: rgb(175,157,140);
 }
@@ -328,20 +325,6 @@ footer h2, .icons {
     color: rgb(47, 40, 30);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* sign-up page */
 
 #signup-page,
@@ -394,7 +377,6 @@ footer h2, .icons {
 label {
     color: black;
     font-size: 16px;
-    
 }
 
 .user-input input {
@@ -458,7 +440,6 @@ label.tour {
 }
 
 button.btn:hover {
-
     border: orange 2px solid;
     color: black;
     background-color: green;
@@ -513,9 +494,8 @@ button.btn:hover {
     text-align: center;
     color: rgb(207,214,229);
 }
-
     
-
+/* responsive design */
 
 @media screen and (max-width: 950px) {
     header {
@@ -525,7 +505,6 @@ button.btn:hover {
         padding-bottom: 10px;
     }
     
-
     .hero-text {
         top: 64%;
     }
@@ -594,7 +573,5 @@ button.btn:hover {
     .timeline-row p, face-history {
         padding-left: 5px;
         padding-right: 5px;
-    }
-
-    
+    }   
 }
