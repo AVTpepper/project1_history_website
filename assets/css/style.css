@@ -11,9 +11,9 @@ html, body {
     height: 100%;
 }
 
-body {
+.body-signup-pages {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 .thank-you-page, .sign-up-page {
@@ -90,7 +90,6 @@ header div {
 .hero-outer {
     height: 85vh;
     width: 100%;
-    overflow: hidden;
     position: relative;
 }
 
