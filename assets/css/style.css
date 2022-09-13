@@ -543,6 +543,7 @@ button.btn:hover {
 
     .timeline {
         align-items: center;
+        padding: 10% 3% 10% 3%;
     }
 
     .face-history {
@@ -594,5 +595,14 @@ button.btn:hover {
         padding: 10px;
     }
 
+    .gallery {
+        height: 100%;
+        padding: 10px;
+        align-content: center;
+    }
+    
+    .gallery img {
+        width: 50%;  
+    }
 
 }
