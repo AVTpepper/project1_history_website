@@ -133,4 +133,23 @@ The greatest challenge I faced for this website was creating a responsive design
           <label for="tour" class="tour">Choose
         ```
         - The error was fixed immediately. 
-        - Second time running the validator there were no errors. [Link to validation]().
+        - Second time running the validator there were no errors. [Link to validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Favtpepper.github.io%2Fproject1_history_website%2Fsignup.html).
+
+    - __Thank You Page__ validation:
+        - First time running the validation I recieved 3 errors:
+        ```
+        Error:
+        1. Error: End tag p seen, but there were open elements.
+        From line 50, column 81; to line 50, column 84
+        story Crew</p></em>
+
+        2: Error: Unclosed element em.
+        From line 50, column 30; to line 50, column 33
+        <br> <em>Best R
+
+        3. Error: No em element in scope but a em end tag seen.
+        From line 50, column 85; to line 50, column 89 
+        y Crew</p></em>     
+        ```
+        - The errors were fixed immediately. 
+        - Second time running the validator there were no errors. [Link to validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Favtpepper.github.io%2Fproject1_history_website%2Fsignup.html).
