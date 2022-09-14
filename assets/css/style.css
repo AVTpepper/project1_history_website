@@ -55,7 +55,6 @@ a.active {
 
 .menu li {
     display: inline-block;
-    padding: auto;
     margin-right: 15px;
 }
 
@@ -465,7 +464,6 @@ button.btn:hover {
     flex-direction: column;
     text-align: center;
     margin: auto;
-    padding: auto;
     padding: 20px;
     background: rgb(207,214,229);
     border-radius: 10px;

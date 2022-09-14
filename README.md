@@ -152,4 +152,25 @@ The greatest challenge I faced for this website was creating a responsive design
         y Crew</p></em>     
         ```
         - The errors were fixed immediately. 
-        - Second time running the validator there were no errors. [Link to validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Favtpepper.github.io%2Fproject1_history_website%2Fsignup.html).
+        - Second time running the validator there were no errors. [Link to validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Favtpepper.github.io%2Fproject1_history_website%2Fthankyou.html%3Ffirst_name%3Dasdf%26last_name%3Dasdf%26email_address%3Dasdf%2540asdf%26type-of-tour%3Dother-historical-sites#l67c55).
+- __CSS__
+    - __styles.css__ validation:
+        - First time running the validation I recieved 2 errors and 5 warnings.
+        ```
+        Error:
+        1. 58	Value Error : padding auto is not a padding value : auto
+		2. 468  Value Error : padding auto is not a padding value : auto
+        ```
+        - Both errors were fixed immediatley. 
+
+        ```
+        Warning:
+        1. Imported style sheets are not checked in direct input and file upload modes.
+        2.  448	.btn	Same color for background-color and border-top-color
+            448	.btn	Same color for background-color and border-right-color
+            448	.btn	Same color for background-color and border-bottom-color
+            448	.btn	Same color for background-color and border-left-color
+         ```
+
+         - Warning number 1 is there because the validator wont check google fonts for anything actually wrong.
+         - Warning 2 is a styling decision I have made, so that when the person hovers over the button the button stays the same size but the colors become different. 
