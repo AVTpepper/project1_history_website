@@ -119,6 +119,18 @@ The greatest challenge I faced for this website was creating a responsive design
        
         3. <img src="assets/images/gallery/george-washington-black-and-white-mount-rushmore.jpg" alt="" srcset="">
         ```
-        - 
+        - The errors and warnings were fixed immediately. 
+        - Second time running the validator there were no errors. [Link to validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Favtpepper.github.io%2Fproject1_history_website%2Fgallery.html).
 
+    - __Sign Up Page__ validation:
+        - First time running the validation I recieved 1 error:
+        ```
+        Error:
+        1. The value of the for attribute of the label element must be the ID of a non-hidden form control.
 
+        From line 67, column 25; to line 67, column 55
+
+          <label for="tour" class="tour">Choose
+        ```
+        - The error was fixed immediately. 
+        - Second time running the validator there were no errors. [Link to validation]().
