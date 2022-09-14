@@ -70,6 +70,7 @@ There are several features on this website and we will now take a closer look at
 
 ### Features left to Implement
 - In the future I would like to add a feature where different types of tours could be viewed. For exmaple: self-guided tour, museum + guided tour, guided tour, group tour, all-inclusive tour, etc.
+- More responsive design for larger screens.
 ---
 
 ## __Testing__
@@ -174,3 +175,37 @@ The greatest challenge I faced for this website was creating a responsive design
 
          - Warning number 1 is there because the validator wont check google fonts for anything actually wrong.
          - Warning 2 is a styling decision I have made, so that when the person hovers over the button the button stays the same size but the colors become different. 
+         - Second time running the validator there were no erros but the warnings remain: [Link to validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Favtpepper.github.io%2Fproject1_history_website%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+---
+## __Deployment__
+
+This project was delopyed on GitHub. Below are the steps I followed to be able to deploy the website:
+1. In the GitHub repository, navigate to the Settings tab.
+2. Scroll down until you see GitHub pages.
+3. From the source section drop-down menu, select the main branch.
+4. Once the main branch has been selected hit the save button.
+5. Finally when the page is refreshed there will be a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here: https://avtpepper.github.io/project1_history_website/index.html
+
+---
+## __Credits__
+### Content
+- All information about Mount Rushmore was taken from [The National Park Service Website](https://www.nps.gov/index.htm).
+- Icons in the header and footer were taken from [Font Awesome](https://fontawesome.com/icons)
+- Inspiration was taken from this website for the sign up form. [Link](https://softauthor.com/css-flexbox-responsive-registration-form-with-source-code/).
+- For coding questions I used [w3schools.com](https://www.w3schools.com/) and the slack community.
+- For flex-box issues I kept refferring to [css-tricks.com](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+
+### Media
+- Color Palette was generetad using [Coolers](https://coolors.co/).
+- Images were takent from [Pexels](https://www.pexels.com/) and [The National Park Service Website](https://www.nps.gov/index.htm).
+- The video is from YouTube.
+---
+## __Special Thanks__
+Specials thanks goes out to:
+- My mentor Maranatha Ilesanmi for guiding me through the project.
+- The "Augies" in the Code Institute slack community for answering my questions.
+- Chris Williams from the Code Institute community for helping with specific issues throughout the project.
+
+
