@@ -80,6 +80,21 @@ As a user of the website I want to be enticed to learn more about the historical
 
 The greatest challenge I faced for this website was creating a responsive design and making my flexboxes do what I wanted them to do. I was able to create a responsive design going down in screen size. However, for larger desktop screens I still need to develop a new media query.
 
+### __Lighthouse Testing__
+I will be using lightouse to check the performance of my home page and gallery page for mobile devices.
+
+- __Home page__: 
+    - The low performance is due to large image dimensions.
+
+![home-page-lighthouse-results](/assets/images/home-page-lighthouse-results.png)
+    
+- __Gallery page__:
+    - Again, the low performance is due to large image dimensions.
+    - According to the report, the low score for best practices is due to browser erros and something to do with cookies and loading up the YouTube video.
+
+![gallery-page-lighthouse-results](/assets/images/gallery-page-lighthouse-results.png)
+
+
 ### __Validator Testing__
 
 - __HTML__
