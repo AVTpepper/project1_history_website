@@ -83,7 +83,7 @@ The greatest challenge I faced for this website was creating a responsive design
 
 - __HTML__
     - __Index Page__ validation:
-    - First time running the HTML through the [W3B validator](https://validator.w3.org/) I recieved one error and one warning.
+        - First time running the HTML through the [W3B validator](https://validator.w3.org/) I recieved one error and one warning.
     
         ```
         Error: Attribute alt not allowed on element div at this point.
@@ -98,7 +98,27 @@ The greatest challenge I faced for this website was creating a responsive design
 
         -->↩↩    <section>↩
         ```
-    - These errors were fixed immediately. 
-    - Second time running the validator there were no errors. [Link to validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Favtpepper.github.io%2Fproject1_history_website%2Findex.html#textarea).
+        - The error and warning were fixed immediately. 
+        - Second time running the validator there were no errors. [Link to validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Favtpepper.github.io%2Fproject1_history_website%2Findex.html#textarea).
+
+    - __Gallery Page__ validation:
+        - First time running the validation I recieved 11 errors and 2 warnings. 
+        ```
+        Erros:
+        1. Attribute "alt" not allowed on element "iframe" at this point.
+        2. The "frameborder" attribute on the "iframe" element is obsolete. Use CSS instead.
+        3. Bad value for attribute "srcset" on element "img": Must contain one or more image candidate strings. (9)
+
+        Warnings:
+        1. Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. (2)
+        ```
+        ```
+        Errors:
+        1 and 2.
+        <iframe class="player" src="https://www.youtube.com/embed/juhjnealXxY?mute=1" alt="a video with history and scenic views of Mount Rushmore" frameborder="0" allowfullscreen>
+       
+        3. <img src="assets/images/gallery/george-washington-black-and-white-mount-rushmore.jpg" alt="" srcset="">
+        ```
+        - 
 
 

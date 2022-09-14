@@ -270,6 +270,10 @@ iframe {
     left: 0;
 }
 
+.player {
+    border:none;
+}
+
 /* Gallery Design */
 
 .gallery.heading {
