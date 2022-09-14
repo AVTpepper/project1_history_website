@@ -72,6 +72,9 @@ There are several features on this website and we will now take a closer look at
 
 ![color-palette](/assets/images/Color-Palette.png)
 
+### __Technologies Used__
+- HTML
+- CSS
 
 ### __Features left to Implement__
 - In the future I would like to add a feature where different types of tours could be viewed. For exmaple: self-guided tour, museum + guided tour, guided tour, group tour, all-inclusive tour, etc.
