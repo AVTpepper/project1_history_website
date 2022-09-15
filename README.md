@@ -1,8 +1,8 @@
 # __Portfolio Project 1 - A History Website__
 
-The Monumental History website is a site that aims to inform those interested about historical places, and on this specific website we are showcasing Mount Rushmore. The website is also created to share information aobut Mount Everest for those interested in learning more about the place.
+The Monumental History website is a site that aims to inform those interested about historical places, and on this specific website we are showcasing Mount Rushmore. The website is also created to share information about Mount Everest for those interested in learning more about the place.
 
-![Responsive Mockup](/assets/images/am-i-responsive.png)
+![Responsive Mock Up](/assets/images/am-i-responsive.png)
 
 ## __Wireframes__
 Before starting the project I created a couple basic wireframes to have an idea of what my final product would look like. I created a mobile wireframe and a desktop wireframe.
@@ -14,7 +14,7 @@ Before starting the project I created a couple basic wireframes to have an idea 
 ---
 
 ## __Features__
-There are several features on this website and we will now take a closer look at them.
+There are several features on this website, and we will now take a closer look at them.
 
 ### __Existing Features__
 
@@ -44,7 +44,7 @@ There are several features on this website and we will now take a closer look at
 ![President Info Card](/assets/images/president-info-cards.png)
 
 - __Bottom Navigation Bar__
-    - This feature is included for easy accesability for users to navigate either back to the top of the page or to any other page thats connected within the website. 
+    - This feature is included for easy accessibility for users to navigate either back to the top of the page or to any other page thats connected within the website. 
     - This navigation bar will only be found on pages with more content, such as the gallery page and home page.
 
 ![Bottom Navigation Bar](/assets/images/bottom-navigation-bar.png)
@@ -56,7 +56,7 @@ There are several features on this website and we will now take a closer look at
 
 - __YouTube Video__
     - The first feature you will see on the gallery page is an embedded YouTube video. The video will provide additional information about Mount Rushmore but in addition will give spectacular views in motion of the historical site.
-    - The video is able to be played in fullscreen, to start the video you need to hit play and it will automatically be muted. To have sound you need to increase the volume.
+    - The video is able to be played in full screen, to start the video you need to hit play and it will automatically be muted. To turn on sound you need to increase the volume on the volume slider.
 
 ![Embedded Video](/assets/images/embedded-video.png)
 
@@ -85,20 +85,20 @@ There are several features on this website and we will now take a closer look at
 - CSS
 
 ### __Features left to Implement__
-- In the future I would like to add a feature where different types of tours could be viewed. For exmaple: self-guided tour, museum + guided tour, guided tour, group tour, all-inclusive tour, etc.
+- In the future I would like to add a feature where different types of tours could be viewed. For example: self-guided tour, museum + guided tour, guided tour, group tour, all-inclusive tour, etc.
 - More responsive design for larger screens.
-- I got a suggestion to add a "burger menu" for my navigation bar, but I quiete like how my navigation bar looks on mobile view. So this feature is still a maybe until I am further convinced.
+- I got a suggestion to add a "burger menu" for my navigation bar, but I quiet like how my navigation bar looks on mobile view. So this feature is still a maybe until I am further convinced.
 ---
 
 ## __Testing__
-All features above have been tested on the depoyed website. Navigations are working as inteded, links to social media websites are working. The form is working as it should, and buttons perform the given actions. 
+All features above have been tested on the deployed website. Navigation bars are working as intended, links to social media websites are working. The form is working as it should, and buttons perform the given actions. 
 
-As a user of the website I want to be enticed to learn more about the historical site. Through the way that the website is created I believe I have achieved that. I used interesting formats for portaying the information through timelines and information cards, and even added visual elements such as a video and gallery page. 
+As a user of the website I want to be enticed to learn more about the historical site. Through the way that the website is created I believe I have achieved that. I used interesting formats for portraying the information through timelines and information cards, and even added visual elements such as a video and gallery page. 
 
-The greatest challenge I faced for this website was creating a responsive design and making my flexboxes do what I wanted them to do. I was able to create a responsive design going down in screen size. However, for larger desktop screens I still need to develop a new media query.
+The greatest challenge I faced for this website was creating a responsive design and making my flex boxes do what I wanted them to do. I was able to create a responsive design going down in screen size. However, for larger desktop screens I still need to develop a new media query.
 
 ### __Lighthouse Testing__
-I will be using lightouse to check the performance of my home page and gallery page for mobile devices.
+I will be using lighthouse to check the performance of my home page and gallery page for mobile devices.
 
 - __Home page__: 
     - The low performance is due to large image dimensions.
@@ -107,7 +107,7 @@ I will be using lightouse to check the performance of my home page and gallery p
     
 - __Gallery page__:
     - Again, the low performance is due to large image dimensions.
-    - According to the report, the low score for best practices is due to browser erros and something to do with cookies and loading up the YouTube video.
+    - According to the report, the low score for best practices is due to browser errors and something to do with cookies and loading up the YouTube video.
 
 ![gallery-page-lighthouse-results](/assets/images/gallery-page-lighthouse-results.png)
 
@@ -119,7 +119,7 @@ Because of the performance levels above, I have gone back and compressed my imag
 
 - __HTML__
     - __Index Page__ validation:
-        - First time running the HTML through the [W3B validator](https://validator.w3.org/) I recieved one error and one warning.
+        - First time running the HTML through the [W3B validator](https://validator.w3.org/) I received one error and one warning.
     
         ```
         Error: Attribute alt not allowed on element div at this point.
@@ -138,7 +138,7 @@ Because of the performance levels above, I have gone back and compressed my imag
         - Second time running the validator there were no errors. [Link to validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Favtpepper.github.io%2Fproject1_history_website%2Findex.html#textarea).
 
     - __Gallery Page__ validation:
-        - First time running the validation I recieved 11 errors and 2 warnings. 
+        - First time running the validation I received 11 errors and 2 warnings. 
         ```
         Erros:
         1. Attribute "alt" not allowed on element "iframe" at this point.
@@ -159,7 +159,7 @@ Because of the performance levels above, I have gone back and compressed my imag
         - Second time running the validator there were no errors. [Link to validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Favtpepper.github.io%2Fproject1_history_website%2Fgallery.html).
 
     - __Sign Up Page__ validation:
-        - First time running the validation I recieved 1 error:
+        - First time running the validation I received 1 error:
         ```
         Error:
         1. The value of the for attribute of the label element must be the ID of a non-hidden form control.
@@ -172,7 +172,7 @@ Because of the performance levels above, I have gone back and compressed my imag
         - Second time running the validator there were no errors. [Link to validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Favtpepper.github.io%2Fproject1_history_website%2Fsignup.html).
 
     - __Thank You Page__ validation:
-        - First time running the validation I recieved 3 errors:
+        - First time running the validation I received 3 errors:
         ```
         Error:
         1. Error: End tag p seen, but there were open elements.
@@ -191,13 +191,13 @@ Because of the performance levels above, I have gone back and compressed my imag
         - Second time running the validator there were no errors. [Link to validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Favtpepper.github.io%2Fproject1_history_website%2Fthankyou.html%3Ffirst_name%3Dasdf%26last_name%3Dasdf%26email_address%3Dasdf%2540asdf%26type-of-tour%3Dother-historical-sites#l67c55).
 - __CSS__
     - __styles.css__ validation:
-        - First time running the validation I recieved 2 errors and 5 warnings.
+        - First time running the validation I received 2 errors and 5 warnings.
         ```
         Error:
         1. 58	Value Error : padding auto is not a padding value : auto
 		2. 468  Value Error : padding auto is not a padding value : auto
         ```
-        - Both errors were fixed immediatley. 
+        - Both errors were fixed immediately. 
 
         ```
         Warning:
@@ -208,18 +208,18 @@ Because of the performance levels above, I have gone back and compressed my imag
             448	.btn	Same color for background-color and border-left-color
          ```
 
-         - Warning number 1 is there because the validator wont check google fonts for anything actually wrong.
+         - Warning number 1 is there because the validator won't check google fonts for anything actually wrong.
          - Warning 2 is a styling decision I have made, so that when the person hovers over the button the button stays the same size but the colors become different. 
          - Second time running the validator there were no erros but the warnings remain: [Link to validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Favtpepper.github.io%2Fproject1_history_website%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 ---
 ## __Deployment__
 
-This project was delopyed on GitHub. Below are the steps I followed to be able to deploy the website:
+This project was deployed on GitHub. Below are the steps I followed to be able to deploy the website:
 1. In the GitHub repository, navigate to the Settings tab.
 2. Scroll down until you see GitHub pages.
 3. From the source section drop-down menu, select the main branch.
 4. Once the main branch has been selected hit the save button.
-5. Finally when the page is refreshed there will be a detailed ribbon display to indicate the successful deployment.
+5. Finally, when the page is refreshed there will be a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here: https://avtpepper.github.io/project1_history_website/index.html
 
@@ -230,17 +230,17 @@ The live link can be found here: https://avtpepper.github.io/project1_history_we
 - Icons in the header and footer were taken from [Font Awesome](https://fontawesome.com/icons)
 - Inspiration was taken from this website for the sign up form. [Link](https://softauthor.com/css-flexbox-responsive-registration-form-with-source-code/).
 - For coding questions I used [w3schools.com](https://www.w3schools.com/) and the slack community.
-- For flex-box issues I kept refferring to [css-tricks.com](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+- For flex-box issues I kept referring to [css-tricks.com](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
 ### Media
-- Color Palette was generetad using [Coolers](https://coolors.co/).
+- Color Palette was generatad using [Coolers](https://coolors.co/).
 - Images were takent from [Pexels](https://www.pexels.com/) and [The National Park Service Website](https://www.nps.gov/index.htm).
 - The video is from YouTube.
 ---
 ## __Special Thanks__
 Specials thanks goes out to:
 - My mentor Maranatha Ilesanmi for guiding me through the project.
-- The "Augies" in the Code Institute slack community for answering my questions.
+- The "Augies" and other community members in the Code Institute slack channel for answering my questions and giving meaningful feedback.
 - Chris Williams from the Code Institute community for helping with specific issues throughout the project.
 
 
