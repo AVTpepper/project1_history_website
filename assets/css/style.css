@@ -571,7 +571,12 @@ button.btn:hover {
     }
 
     footer .icons {
-        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    footer .icons .socials-name {
+        width: 50%;
+        margin: 0px;
     }
 
     .menu {
