@@ -43,7 +43,9 @@ header {
     padding: 10px;
     color: rgb(207, 214, 229);
 }
-
+.logo-nav {
+    text-decoration: none;
+}
 a.active {
     text-decoration: underline 5px;
     text-underline-offset: 10px;
