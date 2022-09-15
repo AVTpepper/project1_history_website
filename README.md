@@ -107,7 +107,7 @@ I will be using lighthouse to check the performance of my home page and gallery 
     
 - __Gallery page__:
     - Again, the low performance is due to large image dimensions.
-    - According to the report, the low score for best practices is due to browser errors and something to do with cookies and loading up the YouTube video.
+    - According to the report, the low score for best practices is due to browser errors and something to do with cookies and loading up the YouTube video. The lower best practices scores I think is due to YouTube and the browser and as far as I know I can't improve that.
 
 ![gallery-page-lighthouse-results](/assets/images/gallery-page-lighthouse-results.png)
 

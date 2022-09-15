@@ -126,7 +126,7 @@ header div {
 .timeline {
     display: flex;
     flex-direction: column;
-    padding: 5% 3% 10% 3%;
+    padding: 5% 3% 5% 3%;
     text-align: center;
     background-color: rgb(175,157,140);
 }
