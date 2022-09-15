@@ -1,14 +1,23 @@
-# Portfolio Project 1 - A History Website
+# __Portfolio Project 1 - A History Website__
 
 The Monumental History website is a site that aims to inform those interested about historical places, and on this specific website we are showcasing Mount Rushmore. The website is also created to share information aobut Mount Everest for those interested in learning more about the place.
 
 ![Responsive Mockup](/assets/images/am-i-responsive.png)
 
-## Features
+## __Wireframes__
+Before starting the project I created a couple basic wireframes to have an idea of what my final product would look like. I created a mobile wireframe and a desktop wireframe.
+
+<img>
+
+![Mobile wireframe](/assets/images/mobile-wireframe-2.png)
+![desktop wireframe](/assets/images/desktop%20wireframe-2.png)
+
 ---
+
+## __Features__
 There are several features on this website and we will now take a closer look at them.
 
-### Existing Features
+### __Existing Features__
 
 
 - __Navigation Bar__
