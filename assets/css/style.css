@@ -364,6 +364,7 @@ footer h2, .icons {
     max-width: 600px;
     border-radius: 10px;
     border: 10px solid rgb(84, 92, 82);
+    flex-grow: 1;
 }
 
 .signup-heading,
@@ -614,5 +615,10 @@ button.btn:hover {
     .gallery img {
         width: 50%;  
     }
+}
 
+@media screen and (max-width: 950px) and (max-height: 600px) {
+    html,body{
+        height: auto;
+    }
 }
