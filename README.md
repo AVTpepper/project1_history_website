@@ -9,8 +9,7 @@ Before starting the project I created a couple basic wireframes to have an idea 
 
 <img>
 
-![Mobile wireframe](/assets/images/mobile-wireframe-2.png)
-![desktop wireframe](/assets/images/desktop%20wireframe-2.png)
+![Mobile wireframe](/assets/images/mobile-wireframe-2.png) ![desktop wireframe](/assets/images/desktop%20wireframe-2.png)
 
 ---
 
@@ -88,6 +87,7 @@ There are several features on this website and we will now take a closer look at
 ### __Features left to Implement__
 - In the future I would like to add a feature where different types of tours could be viewed. For exmaple: self-guided tour, museum + guided tour, guided tour, group tour, all-inclusive tour, etc.
 - More responsive design for larger screens.
+- I got a suggestion to add a "burger menu" for my navigation bar, but I quiete like how my navigation bar looks on mobile view. So this feature is still a maybe until I am further convinced.
 ---
 
 ## __Testing__
@@ -111,6 +111,9 @@ I will be using lightouse to check the performance of my home page and gallery p
 
 ![gallery-page-lighthouse-results](/assets/images/gallery-page-lighthouse-results.png)
 
+
+### __Lighthouse Testing After A Few Updates__
+Because of the performance levels above, I have gone back and compressed my images. Performance levels are now at __97__ for the homepage and __100__ for gallery page.
 
 ### __Validator Testing__
 
