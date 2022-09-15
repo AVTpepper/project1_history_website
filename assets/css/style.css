@@ -518,7 +518,8 @@ button.btn:hover {
     }
     
     .hero-text {
-        top: 64%;
+        top: 3%;
+        padding: 27px 50px;
     }
 
     .logo {
