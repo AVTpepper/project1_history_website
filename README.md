@@ -1,4 +1,4 @@
-# __Portfolio Project 1 - A History Website__
+# __Portfolio Project 1 - Monumental History__
 
 The Monumental History website is a site that aims to inform those interested about historical places, and on this specific website we are showcasing Mount Rushmore. The website is also created to share information about Mount Everest for those interested in learning more about the place.
 
